@@ -32,10 +32,7 @@ def run_script(script_name, description):
 def main():
     start_time = time.time()
     
-    # Create output directory if it doesn't exist
-    if not os.path.exists('output'):
-        os.makedirs('output')
-    
+   
     try:
         # Step 1: Extract features from raw data
         run_script('extract_features.py', 'Feature Extraction')
