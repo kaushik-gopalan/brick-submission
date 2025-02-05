@@ -1,0 +1,10 @@
+# Data directory
+data/
+data/*
+
+# Model files and data
+*.pkl
+*.zip
+*.csv
+*.csv.gz
+
