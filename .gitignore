@@ -1,5 +1,4 @@
 # Data directory
-data/
 data/*
 
 # Model files and data
